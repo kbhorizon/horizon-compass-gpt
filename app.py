@@ -42,4 +42,5 @@ with col1:
 
 with col2:
     st.header("Compass Tool")
-    st.components.v1.iframe("https://huggingface.co/spaces/Kbhorizon/BATool", height=600, scrolling=True)
+    st.write("Launch the Compass Tool to explore brand vs performance allocation.")
+    st.link_button("Open Compass Tool", "https://huggingface.co/spaces/Kbhorizon/BATool")
